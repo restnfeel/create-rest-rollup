@@ -1,0 +1,56 @@
+{
+  "name": "rest-create-module",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./dist/rest-create-module.min.js",
+  "scripts": {
+    "start": "node ./node_modules/rollup/bin/rollup --config rollup.config.dev.js -w",
+    "build": "node ./node_modules/rollup/bin/rollup -c",
+    "doc": "./node_modules/.bin/esdoc",
+    "test": "jest --watchAll"
+  },
+  "keywords": [
+    "create-cnp-module",
+    "cnp-test"
+  ],
+  "author": "Jeong Hwan, Seo",
+  "license": "ISC",
+  "dependencies": {
+    "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.1",
+    "@babel/runtime": "^7.0.0",
+    "@babel/plugin-external-helpers": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "enzyme-to-json": "^3.3.4",
+    "esdoc": "^1.1.0",
+    "esdoc-ecmascript-proposal-plugin": "^1.0.0",
+    "esdoc-jsx-plugin": "^1.0.0",
+    "esdoc-standard-plugin": "^1.0.0",
+    "jest": "^23.6.0",
+    "react": "^16.5.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.5.0",
+    "react-proptypes": "^1.0.0",
+    "rollup": "^0.65.2",
+    "rollup-plugin-alias": "^1.4.0",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-commonjs": "^9.1.6",
+    "rollup-plugin-livereload": "^0.6.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "rollup-plugin-postcss": "^1.6.2",
+    "rollup-plugin-serve": "^0.4.2",
+    "rollup-plugin-uglify": "^5.0.2"
+  }
+}
