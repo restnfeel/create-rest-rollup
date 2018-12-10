@@ -5,6 +5,7 @@
   "main": "./dist/rest-create-module.min.js",
   "scripts": {
     "start": "node ./node_modules/rollup/bin/rollup --config rollup.config.dev.js -w",
+    "prebuild": "node version patch",
     "build": "node ./node_modules/rollup/bin/rollup -c",
     "doc": "./node_modules/.bin/esdoc",
     "test": "jest --watchAll"

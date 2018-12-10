@@ -123,14 +123,14 @@ table {
   border-spacing: 0;
 }
 
-.cnpheader {
+.restheader {
   padding-top: 20px;
   text-align: center;
   vertical-align: middle;
   background: #00274d;
   height: 50px;
 }
-.cnpheader h3 {
+.restheader h3 {
   font-family: "helvetica neue", helvetica, arial, sans-serif;
   font-size: 24px;
   color: #80bfff;
